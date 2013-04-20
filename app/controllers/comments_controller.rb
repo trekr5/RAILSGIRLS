@@ -37,7 +37,7 @@ class CommentsController < ApplicationController
     @comment = Comment.find(params[:id])
   end
 
-  idea.comments.average('rating')
+  # idea.comments.average('rating')
 
   # POST /comments
   # POST /comments.json
