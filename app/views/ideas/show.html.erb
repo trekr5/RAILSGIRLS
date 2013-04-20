@@ -17,6 +17,8 @@
 <% @idea.comments.each do |comment| %>
   <div>
     <strong><%= comment.user_name %></strong>
+    gave this idea     <strong><%= comment.rating %></strong>
+    out of 5
     <br />
     <p><%= comment.body %><p>
   </div>
