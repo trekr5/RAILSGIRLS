@@ -3,6 +3,8 @@ Railsgirls::Application.routes.draw do
     resources :comments
   end
 
+  #root :to => 'welcome#index'
+  #root :to => public#index
 
   resources :ideas
 root :to => redirect('/ideas')
